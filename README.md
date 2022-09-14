@@ -4,6 +4,6 @@
 
 ## License
 
-All sprites and audios are property of Sega, you can't use them for comercial purpose.
+All sprites and audio filess are property of Sega, therefore you cannot use them for commercial purposes.
 
-The scripts are made by marmitoTH, edited by Clipper-YT and are under the MIT No Attribution license, no credits needed, but very appreciated.
+The scripts were made by marmitoTH, edited by Clipper-YT and are under the CC BY-NC-SA License https://creativecommons.org/licenses/by-nc-sa/4.0/
