@@ -3,18 +3,25 @@ extends KinematicBody2D
 class_name PlayerPhysics
 
 export(float) var ACC = 2.8125
-export(float) var DEC = 30
+export(float) var DEC = 30.0
 export(float) var ROLLDEC = 7.5
 export(float) var FRC = 2.8125
 export(float) var SLP = 7.5
 export(float) var SLPROLLUP = 4.6875
 export(float) var SLPROLLDOWN = 18.75
-export(float) var TOP = 360
-export(float) var TOPROLL = 960
-export(float) var JMP = 390
-export(float) var FALL = 150
+export(float) var TOP = 360.0
+export(float) var TOPROLL = 960.0
+export(float) var JMP = 390.0
+export(float) var FALL = 150.0
 export(float) var AIR = 5.625
 export(float) var GRV = 13.125
+
+export(float) var KNJMP = 360.0
+
+export(float) var DRPSPD = 480.0
+export(float) var DRPMAX = 720.0
+export(float) var DRPSPDSUP = 720.0
+export(float) var DRPMAXSUP = 780.0
 
 onready var player_camera = $'../PlayerCamera'
 onready var player_vfx = $Characters/VFX
@@ -50,6 +57,8 @@ var is_wall_right : bool
 var is_pushing : bool
 var is_looking_down : bool
 var is_looking_up : bool
+
+var player_ch : int = 0
 
 func _ready():
 	control_unlock_timer = control_unlock_time
