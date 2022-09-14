@@ -6,4 +6,4 @@
 
 All sprites and audios are property of Sega, you can't use them for comercial purpose.
 
-The scripts are made by me and are under the MIT No Attribution license, no credits needed, but very appreciated.
+The scripts are made by marmitoTH, edited by Clipper-YT and are under the MIT No Attribution license, no credits needed, but very appreciated.
